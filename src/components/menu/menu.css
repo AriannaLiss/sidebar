@@ -1,0 +1,8 @@
+.menu{
+    flex: 1 0 auto;
+}
+
+.menu svg path{
+    stroke:#fff;
+    transition: stroke 1s ease;
+}

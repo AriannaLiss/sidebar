@@ -1,0 +1,62 @@
+html{
+    font-size: 10px;
+}
+
+body,p,h1{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sidebar-wrapper{
+    display:flex;
+    align-items: stretch;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+}
+
+.sidebar{
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+    background-color: #242625;
+    color: #C0BFBD;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    padding: 2rem 1.6rem;
+    width: 5.6rem;
+    overflow: hidden;
+    transition: width 1s ease;
+}
+
+.description{
+    display: none;
+    white-space: nowrap;
+}
+
+.sidebar:hover{
+    width: 20.6rem;
+}
+
+.sidebar:hover .description{
+    display:flex;
+}
+
+.sidebar:hover svg path{
+    stroke:#C0BFBD;
+}
+
+.sidebar:hover .mode-switcher{
+    right: 0;
+}
+
+.sidebar-wrapper:hover .sidebar__arrow{
+    transform: none;
+}

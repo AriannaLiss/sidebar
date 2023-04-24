@@ -1,0 +1,16 @@
+.sidebar__arrow{
+    position: absolute;
+    right: -1.2rem;
+    top: 3.1rem;
+    z-index:100;
+    background-color: #A492FF;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 10rem;
+    background-image: url('../../img/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+    transform: rotate(180deg);
+    transition: all .5s ease-in;
+}
