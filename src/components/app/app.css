@@ -31,7 +31,7 @@ a{
     font-weight: 600;
     line-height: 2.2rem;
     padding: 2rem 1.6rem;
-    width: 5.6rem;
+    width: 5.8rem;
     overflow: hidden;
     transition: width 1s ease;
 }
@@ -58,5 +58,5 @@ a{
 }
 
 .sidebar-wrapper:hover .sidebar__arrow{
-    transform: none;
+    transform: rotate(360deg);
 }

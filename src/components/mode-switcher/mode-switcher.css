@@ -8,7 +8,7 @@
     justify-content: flex-end;
     padding:.2rem;
     position:absolute;
-    right:0.8rem;
+    right:1rem;
     transition: right 1s ease;
 }
 
